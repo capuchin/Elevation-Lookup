@@ -1,3 +1,9 @@
 Requires google-earth with com interface so windows only
 requires python-com and pygoogleearth
 
+It seems the pygoogleearth project is a bit bung and requires a minor modification to work
+Replace this line:
+return gehelper.point_dict_from_terrain_point(terrain_point)
+With this line:
+return terrain_point
+
