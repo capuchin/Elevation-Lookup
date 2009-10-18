@@ -1,0 +1,3 @@
+Requires google-earth with com interface so windows only
+requires python-com and pygoogleearth
+
